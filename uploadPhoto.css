@@ -1,0 +1,125 @@
+:root {
+    --main-color:#160020ff;
+    --main-color2:rgb(170, 0, 142);
+}
+
+body{
+background-color: var(--main-color);
+overflow: hidden;
+}
+#container{
+   
+    height: 500px;
+    background-color: rgba(255, 0, 212, 0.11);
+    margin: 2% auto;
+    padding-top: 2%;
+    border-radius: 20px;
+    width: 450px;
+}
+
+#cover{
+    width: 200px;
+    margin: 50px auto;
+    height: 200px;
+    border-radius: 100px;
+    object-fit: cover;
+
+     background-color: var(--main-color);
+ 
+}
+#cover:hover{
+    
+    opacity: 0.5;
+    transition-duration: 500ms;
+
+}
+img{
+    width: 200px;
+    height: 200px;
+     border-radius: 100px;
+     object-fit: cover;
+    margin: 0% auto;
+}
+h2{
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+color: white;
+font-size: 20px;
+margin-left: 25%;
+ }
+  
+ #continue{
+     background-color: transparent;
+     background-repeat: no-repeat;
+     cursor: pointer;
+     overflow: hidden;
+     width: 250px;
+     height: 50px;
+     border: var(--main-color2) 4px solid;
+     border-radius: 20px;
+     box-shadow: 0 0 1em var(--main-color2);
+     font-family: 'Fredoka One', cursive;
+     font-size: 20px;
+     text-shadow: 0 0 0.5em var(--main-color2);
+     margin-left: 25%;
+     color: white;
+     margin-top: 40px;
+
+ }
+ #no{
+    background-color: transparent;
+    background-repeat: no-repeat;
+    cursor: pointer;
+    overflow: hidden;
+     height: 50px;
+    border: 0;
+    margin-left: 10px;
+    border-radius: 20px;
+     font-family: 'Fredoka One', cursive;
+    font-size: 15px;
+     color: white;
+    margin-top: 5px;
+
+}
+ ::-webkit-scrollbar {
+    width: 15px;
+   }
+  
+   ::-webkit-scrollbar-track {
+    background: rgba(170, 0, 142, 0.219);
+  }
+  
+   ::-webkit-scrollbar-thumb {
+    background: rgb(170, 0, 142);
+    border-radius: 8px;
+  background-clip: padding-box;  
+  }
+ #upload{
+    background-color: transparent;
+    background-repeat: no-repeat;
+    cursor: pointer;
+    overflow: hidden;
+    width: 100px;
+     margin-right: 10px;
+    height: 40px;
+    opacity: 1;
+    border: var(--main-color2) 4px solid;
+    border-radius: 20px;
+     font-family: 'Fredoka One', cursive;
+    font-size: 15px;
+     color: white;
+ 
+}
+input#file[type="file"]{
+    display: none;
+
+ }
+ #continue:hover{
+    background-color:var(--main-color2);
+    transition-duration: 500ms;
+    
+}
+#upload:hover{
+    background-color:var(--main-color2);
+    transition-duration: 500ms;
+    
+}

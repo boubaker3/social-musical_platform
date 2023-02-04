@@ -1,0 +1,273 @@
+:root {
+    --main-color:#160020ff;
+    --main-color2:rgb(170, 0, 142);
+}
+body {
+      background-color: var(--main-color);
+      overflow-y: auto;
+      overflow-x: hidden;
+
+    }
+ 
+ 
+ 
+ #emailLogin input{
+width: 300px;
+height: 40px;
+background-color:var(--main-color);
+outline: none;
+border: 0;
+border-radius: 30px;
+color: #fff;
+font-size: 12px;
+size: 12px;
+padding-left: 2%;
+margin-top: 5px;
+
+  }
+  
+ #passwordLogin input{
+    width: 300px;
+    height: 40px;
+    background-color:var(--main-color);
+    outline: none;
+    border: 0;
+    border-radius: 30px;
+    color: #fff;
+    font-size: 12px;
+    size: 12px;
+     padding-left: 2%;
+
+     margin-top: 5px;
+    }
+  #forgotTextLogin{
+      font-family: monospace;
+      color: grey;
+   }
+  #containerLogin {
+    display: block;
+    position: relative;
+    padding-left: 35px;
+     cursor: pointer;
+    font-family: 'Fredoka One', cursive;
+    color: white;
+    font-size: 15px;
+    margin-top: 15px;
+    -webkit-user-select: none;
+    -moz-user-select: none;
+    -ms-user-select: none;
+    user-select: none;
+    position: absolute;
+  }
+   
+ 
+::-webkit-scrollbar {
+    width: 10px;
+
+   }
+  
+   ::-webkit-scrollbar-track {
+    background: rgba(73, 47, 69, 0.219);
+    border-radius: 8px;
+
+  }
+  
+   ::-webkit-scrollbar-thumb {
+    background: rgb(170, 0, 142);
+   border-radius: 8px;
+ 
+  }
+  :root{
+    scrollbar-color: var(--main-color2) rgba(170, 0, 142, 0.219) !important;
+    scrollbar-width: thin !important;
+     
+  }
+ 
+  #loginBtn{
+    min-width:  200px;
+    min-height:  40px;
+    background-color: transparent;
+    background-repeat: no-repeat;
+    cursor: pointer ;
+    border: var(--main-color2) 3px solid;
+    overflow: hidden;
+    font-family: 'Fredoka One', cursive;
+    color: white;
+    border-radius: 20px;
+    font-size: 20px;
+    margin-top: 15%;
+
+    text-shadow: 0 0 0.5em var(--main-color2) ;
+     float: right;
+      position: relative;
+   }
+  #loginBtn:hover{
+     background-color: var(--main-color2);
+     box-shadow: 0 0 1em var(--main-color2);
+     transition-duration: 500ms;
+    }
+   
+
+
+    h2 {
+        font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+        font-size: 15px;
+        color: white;
+      }
+       
+      #emailSignup input{
+      width: 300px;
+      height: 40px;
+      background-color:var(--main-color);
+      outline: none;
+      border: 0;
+      border-radius: 30px;
+      color: #fff;
+      font-size: 12px;
+      size: 12px;
+      padding-left: 2%;
+      margin-top: 5px;
+      
+      }
+      #passwordSignup input{
+        width: 300px;
+        height: 40px;
+        background-color:var(--main-color);
+        outline: none;
+        border: 0;
+        border-radius: 30px;
+        color: #fff;
+        font-size: 12px;
+        size: 12px;
+        padding-left: 2%;
+        margin-top: 5px;
+
+          }
+       
+       
+      #usernameSignup input{
+        width: 300px;
+        height: 40px;
+        background-color:var(--main-color);
+        outline: none;
+        border: 0;
+        border-radius: 30px;
+        color: #fff;
+        font-size: 12px;
+        size: 12px;
+        padding-left: 2%;
+        margin-top: 5px;
+
+          }
+      #SignupBtn{
+          width: 200px;
+          height: 40px;
+          
+
+          background-color: transparent;
+          background-repeat: no-repeat;
+          cursor: pointer ;
+          border: var(--main-color2) 3px solid;
+          overflow: hidden;
+           box-shadow: 0 0 0.5em var(--main-color2);
+          font-family: 'Fredoka One', cursive;
+          color: white;
+          border-radius: 20px;
+          font-size: 20px;
+          text-shadow: 0 0 0.5em var(--main-color2) ;
+         float: right;
+          margin-top: 15%;
+          position: relative;
+          text-decoration-line: none;
+          text-decoration: none;
+        }
+        #SignupBtn:hover{
+           background-color: var(--main-color2);
+           box-shadow: 0 0 1em var(--main-color2);
+           transition-duration: 500ms;
+          }
+          #containerSignup{
+            display: block;
+            position: relative;
+            padding-left: 35px;
+             cursor: pointer;
+            font-family: 'Fredoka One', cursive;
+            color: white;
+            font-size: 15px;
+            margin-top: 15px;
+            -webkit-user-select: none;
+            -moz-user-select: none;
+            -ms-user-select: none;
+            user-select: none;
+            position: absolute;
+          }
+           
+ #loginDiv{
+     margin: 0 auto;
+    background-color: rgba(255, 0, 212, 0.11);
+    height: 420px;
+    width: 450px;
+     padding: 2%;
+    border-radius: 20px;
+    margin-top: 1%;
+display: block;
+}
+ 
+
+#SignupDiv{   
+    margin: 0 auto;
+    border-radius: 20px;
+    padding: 2%;
+    margin-top: 1%;
+    height: 420px;
+    width: 450px;
+      background-color: rgba(255, 0, 212, 0.11);
+    }
+ #tab{
+    height: 55px;
+   border-radius: 30px;
+    border: var(--main-color2) 4px solid;
+ margin: 0 auto;
+ }
+ input:-webkit-autofill,
+input:-webkit-autofill:focus {
+    transition: background-color 600000s 0s, color 600000s 0s;
+       
+
+}
+ input[data-autocompleted] {
+  background-color: transparent !important;
+   
+
+} input:autofill {
+  background: var(--main-color); 
+}
+ #loginTab{
+   float: left;
+ 
+ }
+ #signupTab{
+   float: right;
+  }
+ #signupTab button{
+  background-color: transparent;
+  background-repeat: no-repeat;
+  overflow: hidden;
+  border: 0;
+  font-size: 25px;
+  cursor: pointer;
+  color: white;  
+
+  font-family: 'Fredoka One', cursive;
+ }
+  #loginTab button{
+  background-color: transparent;
+  background-repeat: no-repeat;
+  overflow: hidden;
+  border: 0;
+   font-size: 25px;
+color: white;
+padding-left: 30%;
+  cursor: pointer;
+  font-family: 'Fredoka One', cursive;
+ }

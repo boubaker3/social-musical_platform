@@ -1,0 +1,239 @@
+:root {
+    --main-color:#160020ff;
+    --main-color2:rgb(170, 0, 142);
+}
+ul#menu {
+    list-style-type:none;
+    margin-top: 125px;
+    padding:0;
+    position: fixed;
+ }
+ 
+ul#menu li {
+    
+    margin: 20px;
+    color: white;
+    font-family: 'Fredoka One', cursive;
+        font-size: 20px;
+    font-style: bold;
+    margin-top: 10px;
+     font-style: bold;
+}
+a{
+    color: white;
+}
+ 
+ul#menu :hover{
+     
+     color: rgb(170, 0, 142);
+     
+     transition-duration: 500ms;
+     
+     text-shadow: 0 0 0.25em rgb(170, 0, 142);
+     
+}
+
+body{
+     background-color: var(--main-color);
+      height: 100%;
+      position: absolute;
+     overflow-y: auto;
+     overflow-x: hidden;
+ 
+ }
+ .empty{
+     background-color: var(--main-color2);
+     width: 2%;
+     }
+ul#menu li ul li{
+     list-style-type: none;
+     font-size: 15px;
+     color: gray;
+      padding: 2px 2px;
+     
+margin: 5px;
+ } 
+ ul#menu li ul li:hover{
+    color: rgb(170, 0, 142);
+    transition-duration: 500ms;
+    text-shadow: 0 0 0.25em rgb(170, 0, 142);
+    border-left: rgb(170, 0, 142) solid;
+
+} 
+ 
+ 
+ 
+input.searchBar {
+    
+    padding: 6px;
+    outline-width: 0;
+     font-size: 17px;
+    border-radius: 20px;
+    height: 35px;
+     margin-left: 8%;
+      color: rgb(163, 163, 163);
+    border:0;
+    outline-style: none;
+     font-size: small;
+     background-color:rgb(33, 0, 48);
+    appearance: none;
+   width: 500px;
+   
+}
+input:-webkit-autofill,
+input:-webkit-autofill:focus {
+    transition: background-color 600000s 0s, color 600000s 0s;
+       
+
+}
+ input[data-autocompleted] {
+  background-color: transparent !important;
+   
+
+}
+input:autofill {
+    background: rgb(33, 0, 48);  
+  }
+ 
+ 
+.accountListDiv {
+     position: absolute;
+    color: rgb(255, 255, 255);
+    font-family: 'Fredoka One', cursive;
+    font-size: 15px;
+    display: none;
+     color: var(--main-color2);
+    background-color:  rgb(33, 0, 48);
+    border-radius: 10px;
+}
+.accountListDiv ul li{
+  margin: 10px;
+   list-style-type: none;
+ 
+ 
+    position: relative;
+   
+}
+ 
+.accountListDiv ul li :hover  {
+    color: rgb(170, 0, 142);
+    
+
+      
+  }
+ 
+ 
+ 
+ 
+.accountDiv{
+    display: block;
+    text-align: left;
+    float: right;
+    margin-right: 1%;
+       
+}
+ 
+ 
+
+
+ .accountListDiv ul .AccountTitle{
+    color: rgb(170, 0, 142);
+}
+ 
+
+ul li img:hover{
+opacity: 0.5;
+transition-duration: 1s;}
+  
+ 
+  ::placeholder {  
+    color: white;
+    opacity: 0.2;  
+  }
+ 
+#UsernameHome{
+     font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    color: white;
+     font-size: 15px; 
+     float: right;
+      margin-top: 10px;
+}
+ 
+img.accountIcon{
+ border-radius: 10px;
+ margin-top: 3px;
+background-color: rgba(33, 0, 48, 0.747);
+object-fit: cover;
+
+}
+img.accountIcon:hover{
+    opacity: 0.5;
+    transition-duration: 0.5s;   
+}
+ 
+#add{
+    width: 35px;
+    height: 35px;
+    padding: 5px;
+    border-radius: 10px;
+    background-color: rgb(33, 0, 48);
+margin-right: 2%;
+    float: right;
+    margin-left: 5px;
+     margin-top: 4px;
+ }
+#add:hover{
+    opacity: 0.5;
+    transition-duration: 0.5s;   
+}
+
+input:-webkit-autofill,
+input:-webkit-autofill:focus {
+    transition: background-color 600000s 0s, color 600000s 0s;
+}
+ input[data-autocompleted] {
+  background-color: transparent !important;
+}
+input:autofill {
+  background: var(--main-color);
+}
+img.accountIcon:hover{
+    background-color: rgb(19, 0, 27);
+
+}
+ .topDiv{
+       position: fixed;
+ padding-top: 10px;
+margin-left: 4%;
+ top: 0;
+background-color: var(--main-color);
+ z-index: 1;
+ 
+ }
+  
+ 
+::-webkit-scrollbar {
+    width: 8px;
+  
+   }
+  
+   ::-webkit-scrollbar-track {
+    background: rgba(170, 0, 142, 0.219);
+    border-radius: 8px;
+  
+  }
+  
+   ::-webkit-scrollbar-thumb {
+    background: rgb(170, 0, 142);
+    border-radius: 8px;
+  }
+  :root{
+    scrollbar-color: var(--main-color2) rgba(170, 0, 142, 0.219) !important;
+    scrollbar-width: thin !important;
+     
+  }
+ 
+
+
+ 
+  

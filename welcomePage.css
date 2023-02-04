@@ -1,0 +1,89 @@
+:root {
+    --main-color:#160020ff;
+    --main-color2:rgb(170, 0, 142);
+}
+body{
+background-color: var(--main-color);
+padding: 2%;
+ overflow-x: hidden;}
+#astro{
+float: left;  }
+.container{
+    background-color: var(--main-color);
+
+}
+  
+::-webkit-scrollbar {
+    width: 8px;
+
+   }
+  
+   ::-webkit-scrollbar-track {
+    background: rgba(170, 0, 142, 0.219);
+    border-radius: 8px;
+
+  }
+  
+   ::-webkit-scrollbar-thumb {
+    background: rgb(170, 0, 142);
+    border-radius: 8px;
+  }
+  :root{
+    scrollbar-color: var(--main-color2) rgba(170, 0, 142, 0.219) !important;
+    scrollbar-width: thin !important;
+     
+  }
+
+
+ 
+
+ #welcomeText{
+ margin-top: 10%;
+ font-family: 'Fredoka One', cursive;
+color: #FFF;
+font-size: 20px;
+float: right;
+font-style: bold;
+
+ }
+ #welcomeText button{
+    background-color: Transparent;
+    background-repeat:no-repeat;
+    border: var(--main-color2) 4px solid;
+    cursor:pointer;
+    font-family: 'Fredoka One', cursive;
+    padding: 10px 10px;
+    font-size: 30px;
+    color: #FFF;
+    margin-top: 50px;
+    margin-left: 150px;
+    border-radius: 10px;
+    display: inline-block;
+    text-shadow: 0 0 0.5em var(--main-color2);
+    box-shadow: 0 0 0.5em var(--main-color2);
+    overflow: hidden;
+
+ }
+ #welcomeText button:hover{
+     background-color: var(--main-color2);
+     box-shadow: 0 0 1em var(--main-color2);
+     transition-duration: 1s;
+ 
+ }
+ #logoWelcome img{
+     display: inline-block;
+     
+ }
+ #logoWelcome{
+     margin-left: 0%;
+animation: animeLogo 2s none;
+ }
+ @keyframes animeLogo {
+     0%{margin-left: 10%;
+    opacity: 0.2;}
+     50%{
+    opacity: 0.5;}
+    100%{margin-left: 0%;
+        opacity: 1;}
+     
+ }
